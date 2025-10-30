@@ -1,9 +1,8 @@
+function simpleArraySum(ar) {
+  const result = ar.reduce((sum, acc) => {
+    return sum + acc;
+  }, 0);
+  return result;
+}
 
- function sum(arr){
-    var s = 0
-    for(var i=0; i<arr.lenth; i++)
-        s=s + arr[i]
- }
-
-
-sum([1,2,3,4,5])
+simpleArraySum([2, 3, 4, 5, 6, 7]);
